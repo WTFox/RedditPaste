@@ -11,7 +11,7 @@ chrome.extension.sendMessage({}, function(response) {
 
 		processLinks();
 
-		window.addEventListener('neverEndingLoad', function (e) {
+		window.addEventListener('neverEndingLoaded', function (e) {
 			processLinks();
 		});
 
